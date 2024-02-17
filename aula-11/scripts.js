@@ -1,12 +1,12 @@
-let numero = 1;
-let numero2 = 22;
+let primeiro_numero= prompt('Digite o primeiro numero para ser somado')
+let segundo_numero = prompt('Digite o segundo numero para ser somado')
 
+ // os numeros serão inseridos no navegador como string e é necessário colcoar essa função para conversão
+primeiro_numero = Number(primeiro_numero); 
+segundo_numero = Number(segundo_numero);
 
-alert(' a soma é de  '+ parseInt(numero) + numero2 +' e de ') 
+const resultadoSoma = primeiro_numero + segundo_numero;
 
-/* Comandos importantes */
+window.alert('O resultado da soma em questão foi ' + resultadoSoma)
 
-/* Window --> mostra varios comandos da janela em questão aberta utilziando
-esse comando podemos colocar mais comandos  para serem exibitos em tela
-
-ISSO TUDO DENTRO DO CONSOLE DO NAVEGADOR*/
+console.log(resultadoSoma);
