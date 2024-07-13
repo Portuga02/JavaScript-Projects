@@ -2,7 +2,7 @@ function soma(x, y) {
     const resultado = x + y;
     return resultado;// tudo que ta aqui dentro da função está protegido
 
-} 
+}
 
 console.log(soma(1, 2)); // pode ser assim ou
 
