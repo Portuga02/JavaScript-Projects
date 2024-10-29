@@ -1,7 +1,7 @@
 const pessoa1 = {
     nome: 'Avelã',
     sobrenome: 'Poico',
-    idade: 1,
+    idade: 2,
 
     // criando metodo dentro do objeto
     fala() {

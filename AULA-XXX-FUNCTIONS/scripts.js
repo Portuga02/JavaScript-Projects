@@ -4,7 +4,7 @@ function soma(x, y) {
 
 }
 
-console.log(soma(1, 2)); // pode ser assim ou
+console.log(soma(1, 2)); // pode ser assim ou -->
 
 const resultado = soma(2, 2);
 console.log(resultado);
