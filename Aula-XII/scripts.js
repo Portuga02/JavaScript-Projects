@@ -2,7 +2,7 @@ let numero = 1;
 let numero2 = 22;
 
 
-alert(' a soma é de  '+ parseInt(numero) + numero2 +' e de ') 
+alert(' a soma é de  ' + parseInt(numero) + numero2 + ' e de ')
 
 /* Comandos importantes */
 
